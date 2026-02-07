@@ -14,6 +14,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying the project'
+                echo 'changes to the project'
             }
         }
     }
